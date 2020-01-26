@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.list-container {
+    top: $header-height;
+    position: fixed;
+    overflow: scroll;
+    bottom: 0;
+    left: 0;
+    right: 280px;
+    padding-left: 20px;
+}
+

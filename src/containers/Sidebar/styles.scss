@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+
+.sidebar {
+    position: fixed;
+    right:0;
+    bottom:0;
+    border-left: #000;
+    top: 0;
+    width: 280px;
+    background:#14181F;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+    &__header {
+        color: #4F5759;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 14px;
+    }
+}
+
+.width-s {
+    width: 110px;
+}
+
+.date-seperator {
+    margin: 30px 5px 0 5px;
+}

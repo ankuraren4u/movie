@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+.header {
+    position: fixed;
+    height: $header-height;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: left;
+    padding:15px 20px;
+    margin-right: 280px;
+    box-sizing: border-box;
+}
+.search-bar {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    bottom: 0;
+    height: 16px;
+    width: 200px;
+    margin: auto;
+    border-radius: 3px;
+    padding: 3px 5px;
+    border: 1px solid #ccc;
+}

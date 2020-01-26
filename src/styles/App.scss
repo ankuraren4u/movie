@@ -1,3 +1,5 @@
+@import "./variables";
+
 .App {
   text-align: center;
 }
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $fg-color-white;
 }
 
 .App-link {
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.pull-left {
+  float:left;
+}
+.pull-right {
+  float:right;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

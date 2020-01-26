@@ -1,0 +1,17 @@
+.grid {
+    float:left;
+    width: 180px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    height: 280px;
+    &__name {
+        color: #1B87B7;
+        font-weight: bold;
+    }
+    &__info {
+        color:#4F5759;
+    }
+    &__img {
+        border-radius: 3px;
+    }
+}

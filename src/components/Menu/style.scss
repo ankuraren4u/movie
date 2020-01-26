@@ -1,0 +1,20 @@
+.menu {
+    line-height: 50px;
+    padding: 0 25px;
+    margin:auto;
+    width: 320px;
+    font-size: 14px;
+    text-transform: uppercase;
+    &-item {
+        padding-left: 15px;
+        text-decoration: none;
+        color: #1B87B7;
+        
+        &:visited {
+            color: #1B87B7;
+        }
+        &.menu-item--active {
+            color: #fff;
+        }
+    }
+}
